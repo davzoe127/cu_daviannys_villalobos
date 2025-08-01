@@ -1,0 +1,14 @@
+body{
+   background-color: beige;
+}
+
+
+.destacado {
+    background-color: rgb(179, 179, 11);
+    font-weight: bold;
+
+}
+ #resumen {
+   color: rgb(0, 0, 0);
+   font-style: italic;
+}
