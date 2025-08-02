@@ -1,0 +1,26 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #87CEFA; /* azul claro */
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Efecto hover (opcional pero elegante) */
+nav a:hover {
+    background-color: #4682B4; /* azul más oscuro */
+    color: #fff;
+}

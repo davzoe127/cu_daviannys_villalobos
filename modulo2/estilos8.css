@@ -1,0 +1,21 @@
+header {
+    background-color: #f694da;
+    padding: 13px;
+    text-align: center;
+    color: rgb(156, 211, 245);
+}
+
+main {
+    background-color: #8cc0f0; /* amarillo claro */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #873abb;
+}
+
+footer {
+    background-color: #90ee90; /* verde suave */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
