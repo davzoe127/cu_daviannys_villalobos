@@ -48,6 +48,7 @@ equal.addEventListener("click", () => {
         .replaceAll("√", "Math.sqrt")
         .replaceAll("%", "%")
         .replaceAll("^", "**")
+       
 
 
         let result = eval(expression);
