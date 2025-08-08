@@ -39,6 +39,7 @@ equal.addEventListener("click", () => {
 
     try {
         let expression = inputValue
+        .replaceAll(/(\d+)\s*(?=cos|sin|tan|sqrt)/g, '$1*')
         .replaceAll("sin", "Math.sin")
         .replaceAll("cos", "Math.cos")
         .replaceAll("tan", "Math.tan")
@@ -47,6 +48,7 @@ equal.addEventListener("click", () => {
         .replaceAll("√", "Math.sqrt")
         .replaceAll("%", "%")
         .replaceAll("^", "**")
+
 
         let result = eval(expression);
 
